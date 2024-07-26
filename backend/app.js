@@ -10,14 +10,6 @@ dotenv.config({ path : path.join(__dirname, 'config', 'config.env')})
 const products = require('./routes/product');
 const orders = require('./routes/order');
 
-app.use(cors(
-    {
-        origin: ["https://vkcart.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true
-    }
-));
-
 connectDatabase();
 
 app.use(express.json());
