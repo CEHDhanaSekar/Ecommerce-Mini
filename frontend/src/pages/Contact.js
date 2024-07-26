@@ -14,13 +14,13 @@ const Contact = () => {
 
   useGSAP(() => {
     gsap.to('.building-img img', {
-      y : 0,
+      x : 0,
       duration : 1,
       opacity : 1,
       ease : "bounce.out"
     })
     gsap.to('.map-location iframe', {
-      y : 0,
+      x : 0,
       duration : 1,
       opacity : 1,
       ease : "bounce.out"

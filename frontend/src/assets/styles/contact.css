@@ -17,12 +17,12 @@
 }
 
 .map-location iframe{
-    transform: translateY(200px);
+    transform: translateX(200px);
     opacity: 0;
 }
 
 .building-img img{
-    transform: translateY(-200px);
+    transform: translateX(-200px);
     opacity: 0;
 }
 
