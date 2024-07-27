@@ -12,7 +12,7 @@ const orders = require('./routes/order');
 
 app.use(cors(
     {
-        origin: ["https://deploy-mern-frontend.vercel.app"],
+        origin: ["http://vkcart-api.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
